@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.section__padding {
+  padding: 4rem 8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .section__padding {
+    padding: 3rem 4rem;
+  }
+}
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

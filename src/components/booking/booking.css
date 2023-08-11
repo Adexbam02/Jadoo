@@ -1,0 +1,171 @@
+.booking__content .heading {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 600px;
+}
+
+.booking__content .heading h2 {
+  text-align: left;
+}
+
+.booking__content-bottom {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.booking__left > div {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.booking__left-card > div {
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.booking__left-card {
+  flex-direction: column;
+  gap: 30px;
+  max-width: 500px;
+}
+
+.booking__left-card h4 {
+  color: var(--text-color);
+  font-family: var(--font1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124.5%;
+}
+
+.booking__left-card p {
+  color: var(--text-color);
+  font-family: var(--font1);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 124.5%;
+}
+
+.booking__right {
+  position: relative;
+}
+
+.booking__right-card1 {
+  width: 320px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow1);
+  border-radius: 25px;
+  background: #ffffff;
+}
+
+.booking__right-card1 {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking__right-card1 > div {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.booking__right-card1 > img {
+  border-radius: 15px;
+}
+
+.booking__right-card1 p {
+  color: var(--text-color2);
+  font-family: var(--font1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 124.5%; 
+  letter-spacing: -0.08px;
+}
+
+.booking__right-card1__links {
+  gap: 15px;
+}
+
+.booking__right-card1__links a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ebebeb;
+  transition: var(--transition);
+}
+
+.booking__right-card1__links a:hover {
+  background: #dfdfdf;
+}
+
+.booking__right-card1__links img {
+  width: 20px;
+}
+
+.building {
+  gap: 6rem;
+}
+
+.building span {
+  gap: 0.5rem;
+}
+
+.booking__right-card2 {
+  width: fit-content;
+  gap: 15px;
+  padding: 1rem;
+  box-shadow: var(--shadow1);
+  background: #ffffff;
+  border-radius: 25px;
+  position: absolute;
+  top: 7rem;
+  left: 10rem;
+
+  color: var(--text-color2);
+  font-family: var(--font1);
+}
+
+.booking__right-card2 .romecircle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.romecircle img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.ongoing > p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.5%;
+  letter-spacing: -0.49px;
+}
+
+.ongoing h3 {
+  color: black;
+}
+.ongoing div > p {
+  font-weight: 500;
+}
+.ongoing div > p span {
+  color: #8a79df;
+}
+
+@media screen and (max-width: 500px) {
+  .booking__left-card > div {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .booking__right-card2 {
+    top: 4rem;
+    left: 2rem;
+  }
+}

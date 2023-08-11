@@ -1,0 +1,14 @@
+.logowall__content {
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logowall__content a {
+  filter: grayscale(1);
+  transition: var(--transition);
+}
+
+.logowall__content a:hover {
+  filter: grayscale(0);
+}

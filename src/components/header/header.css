@@ -1,0 +1,136 @@
+header {
+  padding: 6rem 8rem 4rem 8rem;
+  background: url("../../assets/bg1.png") no-repeat 110% 0%,
+    url("../../assets/plane.svg") no-repeat 0 8%
+    /* url("../../assets/plane.svg") no-repeat 50% 100%; */;
+}
+
+.header__content-left {
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.best {
+  background: #151d5a;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  color: #f7f7f7;
+  font-family: var(--font1);
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.header__content-left h1 {
+  color: var(--color1);
+  font-family: var(--font2);
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 89px; 
+  letter-spacing: -3.36px;
+}
+
+.header__p {
+  max-width: 800px;
+  color: #5e6282;
+  font-family: var(--font1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; 
+}
+
+.header__content button {
+  border-style: none;
+  padding: 1rem;
+  border-radius: 10px;
+  background: var(--yellow);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+}
+
+.header__content-left__btns {
+  justify-content: flex-start;
+  gap: 15px;
+}
+.header__content-left__btns span {
+  cursor: pointer;
+  font-family: var(--font1);
+  gap: 5px;
+}
+
+.header__content-right img {
+  max-width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 6rem 6rem 4rem 6rem;
+  }
+
+  .header__content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header__content-left {
+    gap: 20px;
+    align-items: center;
+  }
+  .best {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .header__content-left h1 {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  header {
+    max-width: 95%;
+  }
+
+  .header__content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__content-left {
+    gap: 20px;
+    align-items: center;
+  }
+  .best {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .header__content-left h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .header__p {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .header__content button {
+    padding: 0.7rem;
+  }
+
+  .header__content-right img {
+    width: 250px;
+  }
+}
